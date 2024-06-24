@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 18px;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -34,3 +35,20 @@ h1 {
   line-height: 1.1;
 }
 
+.btn-blue {
+  background-color: var(--eggshell);
+  border: 1px solid var(--calgaryblue);
+  border-radius: 100px;
+  color: var(--calgaryblue);
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.btn-blue:hover {
+  background-color: var(--calgaryblue);
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* Reminder: add brand typography */

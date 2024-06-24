@@ -1,11 +1,11 @@
 import './App.css';
-import TempLogin from './TempLogin/TempLogin';
+import LoginPage from './LoginPage/LoginPage';
 
 function App() {
 
   return (
     <>
-      <TempLogin />
+      <LoginPage />
     </>
   )
 }

@@ -1,6 +1,6 @@
 import logo from "../assets/CM_logo_big.png";
-import './login.css';
-function TempLogin() {
+import './loginpage.css';
+function LoginPage() {
   return (
     <>
       <img className="login-logo" src={logo}></img>
@@ -13,4 +13,4 @@ function TempLogin() {
   )
 }
 
-export default TempLogin
+export default LoginPage

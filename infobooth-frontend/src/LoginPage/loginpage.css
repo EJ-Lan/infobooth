@@ -1,0 +1,21 @@
+.login-logo {
+    width: 1000px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    background-color: var(--pinkish);
+    border: none;
+    width: 250px;
+    height: 25px;
+    padding: 2px 12px;
+    color: var(--black);
+    font-size: 16px;
+}

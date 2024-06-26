@@ -1,26 +1,37 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    box-sizing: border-box;
-    gap: 500px;
+    padding: 2rem 2rem;
+    margin: 0;
 }
 
 .nav-logo-container {
-    flex: 1;
-
+    display: flex;
+    align-items: center;
 }
 
 .nav-links-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    gap: 5px;
+    list-style: none;
+    gap: 3rem;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    height: 40px;
 }
 
 .nav-link {
-    width: 150px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav-item {
+    padding: 7px 10px;
+    margin: 10px 0px;
+}
+
+.nav-btn {
+    height: auto;
 }
